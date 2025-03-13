@@ -1,0 +1,14 @@
+<model-viewer src="mercedes 300 sl.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" autoplay auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-surface="0 0 1437 1407 1454 0.398 0.286 0.316" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">300 SL, the most classical model of Mercedes.</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
